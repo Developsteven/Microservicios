@@ -7,6 +7,6 @@ import com.app.item.models.Item;
 public interface ItemService {
 	
 	public List<Item> findAll();
-	public Item findById(long id, Integer cantidad);
+	public Item findById(Long id, Integer cantidad);
 
 }
