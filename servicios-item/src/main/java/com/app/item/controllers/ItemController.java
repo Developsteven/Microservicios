@@ -15,7 +15,7 @@ import com.app.item.models.service.ItemService;
 public class ItemController {
 	
 	@Autowired
-	@Qualifier("servicioFeign")
+	@Qualifier("serviceFeign") //serviceRestTemplate
 	private ItemService itemService;
 	
 	@GetMapping("/listar")
