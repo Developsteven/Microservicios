@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import com.app.item.clientes.ProductoClienteRest;
 import com.app.item.models.Item;
 
-@Service("servicioFeign")
+@Service("serviceFeign")
 @Primary
 public class ItemServiceFeign implements ItemService {
 	
